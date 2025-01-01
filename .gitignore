@@ -1,3 +1,4 @@
+# Laravel Specific
 /.phpunit.cache
 /node_modules
 /public/build
@@ -5,14 +6,26 @@
 /public/storage
 /storage/*.key
 /vendor
-.env
+
+# Ignore environment files
+# Uncomment the following line if you want to ignore `.env` files again
+# .env
 .env.backup
 .env.production
+
+# Homestead and authentication files
 Homestead.json
 Homestead.yaml
 auth.json
+
+# Debug and log files
 npm-debug.log
 yarn-error.log
+
+# IDE and editor-specific files
 /.fleet
 /.idea
 /.vscode
+
+# Vercel
+.vercel
